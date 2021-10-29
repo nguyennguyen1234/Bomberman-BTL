@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="parentRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.MenuSceneController">
+   <children>
+      <AnchorPane fx:id="MenuScene" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFC;">
+         <children>
+            <Button fx:id="StartButton" layoutX="274.0" layoutY="350.0" mnemonicParsing="false" onAction="#startButtonClicked" text="Button" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
