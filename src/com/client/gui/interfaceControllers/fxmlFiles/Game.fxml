@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="game-primary-pane" fx:id="primaryPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" styleClass="root" stylesheets="@../../styles/guiStyles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="gameMapPane" layoutX="18.0" layoutY="14.0" prefHeight="713.0" prefWidth="712.0" styleClass="game-map-pane" />
+      <Pane fx:id="gameScoresPane" layoutX="745.0" layoutY="28.0" prefHeight="693.0" prefWidth="510.0" styleClass="scores-pane">
+         <children>
+            <Button id="back-button" focusTraversable="false" layoutX="283.0" layoutY="468.0" mnemonicParsing="false" onAction="#backToMenu" onMouseEntered="#mouseEnteredButton" onMouseExited="#mouseExitedButton" prefHeight="40.0" prefWidth="124.0" styleClass="button, menu-button" stylesheets="@../../styles/guiStyles.css" text="Exit game" />
+            <Label fx:id="score1Label" layoutX="137.0" layoutY="132.0" prefHeight="52.0" prefWidth="292.0" styleClass="score-label" stylesheets="@../../styles/guiStyles.css" />
+            <Label fx:id="score2Label" layoutX="137.0" layoutY="214.0" prefHeight="52.0" prefWidth="292.0" styleClass="score-label" stylesheets="@../../styles/guiStyles.css" />
+            <Label fx:id="score3Label" layoutX="137.0" layoutY="295.0" prefHeight="52.0" prefWidth="292.0" styleClass="score-label" stylesheets="@../../styles/guiStyles.css" />
+            <Label fx:id="score4Label" layoutX="137.0" layoutY="378.0" prefHeight="52.0" prefWidth="292.0" styleClass="score-label" stylesheets="@../../styles/guiStyles.css" />
+            <Pane fx:id="playersImagePane4" layoutX="76.0" layoutY="383.0" prefHeight="42.0" prefWidth="42.0" styleClass="players1-image-pane" stylesheets="@../../styles/guiStyles.css" />
+            <Pane fx:id="playersImagePane3" layoutX="76.0" layoutY="300.0" prefHeight="42.0" prefWidth="42.0" styleClass="players2-image-pane" stylesheets="@../../styles/guiStyles.css" />
+            <Pane fx:id="playersImagePane1" layoutX="76.0" layoutY="137.0" prefHeight="42.0" prefWidth="42.0" styleClass="players3-image-pane" stylesheets="@../../styles/guiStyles.css" />
+            <Pane fx:id="playersImagePane2" layoutX="76.0" layoutY="219.0" prefHeight="42.0" prefWidth="42.0" styleClass="players4-image-pane" stylesheets="@../../styles/guiStyles.css" />
+         </children>
+      </Pane>
+   </children>
+
+</Pane>

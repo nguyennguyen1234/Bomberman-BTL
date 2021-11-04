@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.server.Controllers.GUIController">
+   <children>
+      <Button fx:id="startServ" layoutX="435.0" layoutY="14.0" mnemonicParsing="false" onAction="#go" prefHeight="37.0" prefWidth="117.0" text="Run Server" />
+      <Label fx:id="serverIP" alignment="TOP_CENTER" layoutX="31.0" layoutY="18.0" prefHeight="30.0" prefWidth="290.0" text="Ip servera: 127.0.0.1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ListView fx:id="serverListView" layoutX="10.0" layoutY="79.0" prefHeight="315.0" prefWidth="572.0" />
+   </children>
+</Pane>

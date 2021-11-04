@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane xmlns:fx="http://javafx.com/fxml/1" id="primary-pane" fx:id="primaryPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" styleClass="root" stylesheets="@../../styles/guiStyles.css" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Button id="singleplayer-button" layoutX="384.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#startNewGame" onMouseEntered="#mouseEnteredButton" onMouseExited="#mouseExitedButton" prefHeight="46.0" prefWidth="513.0" styleClass="button, menu-button" stylesheets="@../../styles/guiStyles.css" text="Single player" />
+      <Button id="multiplayer-button" layoutX="384.0" layoutY="423.0" mnemonicParsing="false" onMouseClicked="#openLobby" onMouseEntered="#mouseEnteredButton" onMouseExited="#mouseExitedButton" prefHeight="46.0" prefWidth="513.0" styleClass="button, menu-button" stylesheets="@../../styles/guiStyles.css" text="Multi player" />
+      <Button id="highscores-button" layoutX="384.0" layoutY="488.0" mnemonicParsing="false" onMouseClicked="#openHighscores" onMouseEntered="#mouseEnteredButton" onMouseExited="#mouseExitedButton" prefHeight="46.0" prefWidth="513.0" styleClass="button, menu-button" stylesheets="@../../styles/guiStyles.css" text="Highscores" />
+      <Button id="exit-button" layoutX="384.0" layoutY="554.0" mnemonicParsing="false" onMouseClicked="#exitGame" onMouseEntered="#mouseEnteredButton" onMouseExited="#mouseExitedButton" prefHeight="46.0" prefWidth="513.0" styleClass="button, menu-button" stylesheets="@../../styles/guiStyles.css" text="Exit" />
+   </children>
+
+</Pane>

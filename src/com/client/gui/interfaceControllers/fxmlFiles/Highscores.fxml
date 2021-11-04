@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="highscores-primary-pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" styleClass="root" stylesheets="@../../styles/guiStyles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="804.0" layoutY="27.0" prefHeight="739.0" prefWidth="476.0" styleClass="highscores-pane-images, highscores-pane-images-right" stylesheets="@../../styles/guiStyles.css" />
+      <Pane layoutX="7.0" layoutY="15.0" prefHeight="739.0" prefWidth="516.0" styleClass="highscores-pane-images, highscores-pane-images-left" stylesheets="@../../styles/guiStyles.css" />
+      <Button layoutX="995.0" layoutY="601.0" mnemonicParsing="false" onAction="#backToMenu" onMouseEntered="#mouseEnteredButton" onMouseExited="#mouseExitedButton" prefHeight="46.0" prefWidth="226.0" styleClass="button, menu-button" stylesheets="@../../styles/guiStyles.css" text="Back" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="77.0" layoutX="380.0" layoutY="524.0" stroke="BLACK" strokeType="INSIDE" styleClass="highscores-scores-rectangle" width="544.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="77.0" layoutX="381.0" layoutY="611.0" stroke="BLACK" strokeType="INSIDE" styleClass="highscores-scores-rectangle" width="544.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="77.0" layoutX="379.0" layoutY="349.0" stroke="BLACK" strokeType="INSIDE" styleClass="highscores-scores-rectangle" width="544.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="77.0" layoutX="380.0" layoutY="436.0" stroke="BLACK" strokeType="INSIDE" styleClass="highscores-scores-rectangle" width="544.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="77.0" layoutX="379.0" layoutY="260.0" stroke="BLACK" strokeType="INSIDE" styleClass="highscores-scores-rectangle" width="544.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="77.0" layoutX="378.0" layoutY="173.0" stroke="BLACK" strokeType="INSIDE" styleClass="highscores-scores-rectangle" width="544.0" />
+      <Rectangle id="highscores-top-rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="77.0" layoutX="489.0" layoutY="55.0" stroke="BLACK" strokeType="INSIDE" width="303.0" />
+      <Label id="highscores-top-label" alignment="CENTER" layoutX="481.0" layoutY="81.0" styleClass="highscores-label" stylesheets="@../../styles/guiStyles.css" text="The best scores" textAlignment="CENTER" />
+      <Label id="highscores-bestscore-label" fx:id="top1LabelScore" layoutX="390.0" layoutY="173.0" onMouseClicked="#mouseClickedLabel" onMouseEntered="#mouseEnteredLabel" onMouseExited="#mouseExitedLabel" prefHeight="77.0" prefWidth="526.0" styleClass="highscores-label" stylesheets="@../../styles/guiStyles.css" text="Empty" />
+      <Label fx:id="top2LabelScore" layoutX="390.0" layoutY="260.0" onMouseClicked="#mouseClickedLabel" onMouseEntered="#mouseEnteredLabel" onMouseExited="#mouseExitedLabel" prefHeight="77.0" prefWidth="526.0" styleClass="highscores-label" stylesheets="@../../styles/guiStyles.css" text="Empty" />
+      <Label fx:id="top3LabelScore" layoutX="390.0" layoutY="349.0" onMouseClicked="#mouseClickedLabel" onMouseEntered="#mouseEnteredLabel" onMouseExited="#mouseExitedLabel" prefHeight="77.0" prefWidth="526.0" styleClass="highscores-label" stylesheets="@../../styles/guiStyles.css" text="Empty" />
+      <Label fx:id="top4LabelScore" layoutX="389.0" layoutY="436.0" onMouseClicked="#mouseClickedLabel" onMouseEntered="#mouseEnteredLabel" onMouseExited="#mouseExitedLabel" prefHeight="77.0" prefWidth="526.0" styleClass="highscores-label" stylesheets="@../../styles/guiStyles.css" text="Empty" />
+      <Label fx:id="top5LabelScore" layoutX="389.0" layoutY="524.0" onMouseClicked="#mouseClickedLabel" onMouseEntered="#mouseEnteredLabel" onMouseExited="#mouseExitedLabel" prefHeight="77.0" prefWidth="526.0" styleClass="highscores-label" stylesheets="@../../styles/guiStyles.css" text="Empty" />
+      <Label fx:id="top6LabelScore" layoutX="389.0" layoutY="611.0" onMouseClicked="#mouseClickedLabel" onMouseEntered="#mouseEnteredLabel" onMouseExited="#mouseExitedLabel" prefHeight="77.0" prefWidth="526.0" styleClass="highscores-label" stylesheets="@../../styles/guiStyles.css" text="Empty" />
+   </children>
+
+</Pane>

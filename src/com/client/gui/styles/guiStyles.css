@@ -1,0 +1,170 @@
+/* Main classes */
+
+.root {
+    -fx-background-image: url("@/../../images/logos.png");
+}
+
+.button {
+    -fx-font-family: "Times New Roman";
+    -fx-font-wegiht: bold;
+}
+
+.menu-button {
+    -fx-background-color: rgba(50,50,50,0.6);
+    -fx-text-fill: rgba(200,200,200,0.9);
+    -fx-font-size: 24px;
+}
+
+.menu-button:hover {
+    -fx-background-color: rgba(50,50,50,0.8);
+    -fx-text-fill: rgba(240,240,240,0.95);
+}
+
+/* Game classes */
+
+#game-primary-pane {
+    -fx-background-image: url("@/../../images/backgroundmap.jpg");
+}
+
+.game-map-pane {
+    -fx-background-color: brown;
+}
+
+.scores-pane {
+    -fx-background-color: transparent;
+    -fx-background-image: url("@/../../images/frame.png");
+}
+
+.score-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bolder;
+    -fx-text-fill: white;
+
+}
+
+.players1-image-pane {
+     -fx-background-image: url("@/../../images/Blocks/playerBlock4.png");
+ }
+
+.players2-image-pane {
+    -fx-background-image: url("@/../../images/Blocks/playerBlock3.png");
+}
+
+.players3-image-pane {
+    -fx-background-image: url("@/../../images/Blocks/playerBlock1.png");
+}
+
+.players4-image-pane {
+    -fx-background-image: url("@/../../images/Blocks/playerBlock2.png");
+}
+
+/* Lobby classes */
+
+.playersname-label {
+    -fx-text-fill: rgb(129, 149, 246);
+    -fx-background-color: rgba(50,50,50,0.8);
+    -fx-font-size: 28px;
+    -fx-text-aligment: center;
+    -fx-border-style: solid;
+    -fx-border-color: rgba(255, 255, 255, 0.72);
+}
+
+.playersname-label:hover {
+    -fx-background-color: rgba(152, 152, 152, 0.8);
+    -fx-text-fill: rgba(0, 51, 0, 0.9);
+}
+
+.playersnumber-label {
+    -fx-background-color: rgba(50,50,50,0.8);
+    -fx-text-fill: rgb(129, 149, 246);
+    -fx-font-size: 30px;
+    -fx-text-aligment: right;
+}
+
+.highscores-pane-color {
+    -fx-background-color: red;
+    -fx-stroke: black;
+    -fx-border-radius: 10;
+}
+
+.ready-button {
+    -fx-text-fill: rgb(246, 236, 39);
+    -fx-background-color: rgba(30,90,50,0.8);
+    -fx-font-size: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: rgba(255, 255, 255, 0.72);
+}
+
+.ready-button:hover {
+    -fx-background-color: rgba(130,190,150,0.8);
+    -fx-text-fill: rgb(142, 39, 19);
+}
+
+.ready-button:selected {
+    -fx-background-color: rgba(30,30,30,0.8);
+}
+
+.IPAddress-field {
+    -fx-text-fill: rgba(20,20,20,0.9);
+    -fx-font-size: 24px;
+}
+
+.Port-field {
+    -fx-text-fill: rgba(20,20,20,0.9);
+    -fx-font-size: 24px;
+}
+
+.ping-label {
+    -fx-text-fill: rgba(0,0,100,0.7);
+    -fx-font-size: 14px;
+}
+
+/* Highscores classes */
+
+.highscores-scores-rectangle {
+    -fx-fill: rgba(170,170,170,0.2);
+    -fx-stroke: rgba(200,200,200,0.5);
+}
+
+.highscores-label {
+    -fx-text-alignment: center;     /*todo not working*/
+    -fx-font-size: 44px Tahoma;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-font-smoothing-type: lcd;
+
+}
+
+.highscores-pane-images {
+    -fx-background-size: cover;
+}
+
+.highscores-pane-images-right {
+    -fx-background-image: url("@/../../images/dragon-right.png");
+}
+
+.highscores-pane-images-left {
+    -fx-background-image: url("@/../../images/dragon-left.png");
+}
+
+#highscores-primary-pane {
+    -fx-background-image: url("@/../../images/treasures-cave.jpg");
+}
+
+#highscores-top-label {
+    -fx-font-size: 48px Tahoma;
+    -fx-text-fill: red;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-font-weight: bolder;
+    -fx-font-smoothing-type: lcd;
+}
+
+#highscores-bestscore-label {
+
+}
+
+#highscores-top-rectangle {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+}
